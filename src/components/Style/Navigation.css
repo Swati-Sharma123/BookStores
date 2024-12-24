@@ -1,0 +1,52 @@
+.Navigation_container {
+    background-color: rgb(29, 85, 117);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .nav-search-box {
+    position: relative;
+    display: inline-block;
+    width: 270px;
+  }
+  
+  .nav-search {
+    width: 100%;
+    padding: 10px 12px 8px 30px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .nav-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: gray;
+
+  }
+  
+  .nav-btn {
+    display: flex;
+    gap: 13px;
+  }
+  
+  .nav-login-btn, .nav-signup-btn {
+    background-color: #fff;
+    color: rgb(29, 85, 117);
+    border: 1px solid rgb(29, 85, 117);
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-login-btn:hover, .nav-signup-btn:hover {
+    background-color: rgb(29, 85, 117);
+    color: #fff;
+  }
+  

@@ -1,0 +1,30 @@
+.carousal_container{
+    display: flex;
+    align-items: center; 
+  justify-content: center;
+}
+.carousal-images{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 30px;
+}
+.carousal-img {
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+.left-btn-carousal{
+position: relative;
+cursor: pointer;
+}
+.right-btn-carousal{
+position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+  color: #333;
+}

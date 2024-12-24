@@ -1,0 +1,91 @@
+.signIn_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.signIn_form{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.signIn_title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    text-align: center;
+    color: #333;
+}
+.sigIn_details{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.sigIn_details input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.sigIn_details input :focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+  }
+
+  .sigIn_details_checkBox_details{
+    display: flex;
+    align-items: center;
+  }
+  .signIn-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .SignIn_message{
+    margin-top: 5px;
+  }
+  .SignInOption_btn{
+    display: flex;
+  }
+  .signIn_byFb-button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #fff;
+    color: #0f0f0f;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 5px;
+    border-width: 3px;
+  }
+  
+  .signIn_byGoogle--button{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #fff;
+    color: #0f0f0f;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 5px;
+    border-width: 3px;
+  }
+  

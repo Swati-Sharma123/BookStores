@@ -1,0 +1,85 @@
+/* General container styling */
+.profile-management-container {
+    background-color: rgb(112, 112, 111);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Header styling */
+.profile-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    margin-top: -10px;
+}
+
+.profile-icon-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification-icon {
+    margin-right: 65px;
+    cursor: pointer;
+}
+
+/* User greeting styling */
+.profile-user-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    padding: 0 10px;
+}
+
+/* Details section styling */
+.profile-details-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.profile-details-item {
+    padding: 20px;
+    width: 180px;
+    background-color: rgb(236, 236, 229);
+    color: rgb(50, 50, 50);
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.profile-details-item:hover {
+    background-color: rgb(200, 200, 200);
+    transform: scale(1.05);
+}
+
+/* Orders section styling */
+.profile-orders-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.orders-section a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.profile-details-item:hover a:hover {
+    color: #fff;
+}
+.order-image{
+    height: 150px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
