@@ -1,84 +1,103 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 .hero-container {
-    margin-top: 4px;
-    padding: 20px;
-  }
-  
-  .hero-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between; /* Better alignment for responsiveness */
-  }
-  
-  .hero_seller {
-    font-size: 18px;
-    font-weight: bold;
-    color: #1d5575;
-    margin-bottom: 10px; /* Spacing for mobile layouts */
-  }
-  
-  .hero-heading {
-    background-color: rgb(234, 235, 236);
-    width: 100%;
-    max-width: 80%; 
-    border-radius: 10px;
-    padding: 10px 15px;
-  }
-  
-  .hero-heading ul {
-    display: flex;
-    gap: 22px;
-    list-style: none;
-    padding: 5px;
-    margin: 0;
-  }
-  
-  .hero-heading li {
-    font-size: 16px;
-  }
-  
-  .hero-heading a {
-    text-decoration: none;
-    color: #1d5575;
-    padding: 10px; 
-    transition: color 0.3s ease, background-color 0.3s ease;
-    border-radius: 5px;
-  }
-  
-  .hero-heading a:hover {
-    color: #ffffff;
-    background-color: #d35400; 
-  }
-  
-  .hero-crousal {
-    margin: 35px auto; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    max-width: 80%; 
-  }
-  
-  
-  .hero-ul-list {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 8px; 
-  }
-  
-  .hero-link {
-    padding: 15px;
-    color: #523588;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    border: 1px solid gray;
-  }
-  
-  .hero-link:hover {
-    color: #3d6cb4; 
-  }
+  margin-top: 4px;
+  padding: 20px;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_seller {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d5575;
+  margin-bottom: 10px;
+  background-color: rgb(234, 235, 236);
+  padding: 65px; 
+  border-radius: 8px;
+  width: 300px;
+}
+
+.hero_seller-details {
+  list-style: none;
+  padding: 0;
+}
+
+.hero_seller-points {
+  text-decoration: none;
+  color: #523588;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin-top: 8%;
+}
+
+.hero_seller-points:hover {
+  color: #3d6cb4;
+}
+
+.hero-heading {
+  background-color: rgb(234, 235, 236);
+  width: 100%;
+  max-width: 80%;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.hero-heading ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 5px;
+}
+
+.hero-heading a {
+  text-decoration: none;
+  color: #1d5575;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.hero-heading a:hover {
+  color: #ffffff;
+  background-color: #d35400;
+}
+
+.hero-carousel {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
+.hero-ul-list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.hero-link {
+  padding: 10px;
+  color: #523588;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid gray;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-link:hover {
+  color: #ffffff;
+  background-color: #d35400;
+}
